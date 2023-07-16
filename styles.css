@@ -9,7 +9,7 @@
     height: 100vh;
     width: 100%;
     background-image: url(./assets/pc.svg);
-    background-size: 600px;
+    background-size: 500px;
     background-position: 90% center;
     background-repeat: no-repeat;
      background-color: #00008B;
@@ -30,12 +30,7 @@ nav {
 
 .portfolio {
     color: white;
-    font-weight: 0;
-}
-
-.portfolio span {
-    color: #8A2BE2;
-
+    font-weight: 400;
 }
 
 li {
@@ -56,15 +51,15 @@ li:hover {
 
 .name {
     position: absolute;
-    top: 35%;
-    left: 10%;
+    top: 40%;
+    left: 5%;
 }
 
 .meu-name {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 45px;
+    font-size: 39px;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 20px;
@@ -75,7 +70,7 @@ li:hover {
 }
 
 .developer {
-    font-size: 40px;
+    font-size: 39px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -143,16 +138,21 @@ section div p {
 
 .card {
     background: #C0C0C0;
-    width: 365px;
+    width: 300px;
     height: 335px;
     padding: 20px 35px;
     border-radius: 20px;
     text-align: center;
 }
 
+.carregando{
+    width: 180px;
+    margin-top: 40px;
+}
+
 .card h5 {
     color:#000000;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .card p {
@@ -170,9 +170,6 @@ section div p {
     transition: 0.5s;
 }
 
-.loadgin{
-    width: 300px;
-}
 
 
 .card-projetos{
