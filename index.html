@@ -14,36 +14,38 @@
 <body>
     <div class="container">
         <nav>
-            <h2 class="portfolio"> Portfólio</h2>
+            <h2 class="portfolio" id="inicio"> Portfólio</h2>
             <ul>
-                <li> <a> Inicio</a> </li>
-                <li> <a> Sobre</a></li>
-                <li> <a> Projetos</a></li>
-                <li> <a> Contatos</a></li>
+                <li> <a href="#inicio" class="nav-link"> Inicio</a> </li>
+                <li> <a href="#sobre-mim" class="nav-link"> Sobre</a></li>
+                <li> <a href="#projetos" class="nav-link"> Projetos</a></li>
+                <li> <a href="#footer-contacts" class="nav-link"> Contatos</a></li>
             </ul>
         </nav>
         <div class="name">
             <h1 class="meu-name"> Olá, sou Aaron Victor, um Desenvolvedor Front-End </h1>
-            <h3 class="developer"> apaixonado por criar interfaces intuitivas e atraentes. </h3>
+            <h3 class="interface-creator"> apaixonado por criar interfaces intuitivas e atraentes. </h3>
         </div> <!--primeira tela -->
     </div>
 
     <section>
-        <img src="./assets/Sem nome (334 × 398 px) (1).png" class="foto-de-perfil">
+        <img src="./assets/foto-perfil.png" class="foto-de-perfil">
         <div class="sobre-mim">
-            <h2> sobre mim </h2>
+            <h2 id="sobre-mim"> sobre mim </h2>
             <p>
                 Sou um Progamador front-end com experiência em HTML, CSS e JavaScript, e estou atualmente
                 expandindo meus conhecimentos para incluir o framework React. Tenho habilidades sólidas na
                 criação de interfaces web responsivas e interativas, e estou animado em aplicar minha expertise
                 no desenvolvimento de aplicativos web dinâmicos com o React.
                 Busco oportunidades desafiadoras para contribuir em projetos inovadores e colaborativos.</p>
-            <button class="btn-contact"> Entre em contato</button>
+            <a href="./assets/Currículo minimalista preto e cinza (4) (1).pdf" target="_blank"> <button
+                    class="btn-contact"> Meu CV</button></a>
+
         </div>
     </section>
 
 
-    <div class="projetos">
+    <div class="projetos" id="projetos">
         <h2 class="principais"> Principais Projetos</h2>
 
         <div class="card-projetos">
@@ -52,7 +54,7 @@
                 <img src="./assets/frutaria.png" alt="" class="frutaria">
                 <h5> Frutaria</h5>
                 <p> Frutaria: adicione frutas ao carrinho, remova e some seus produtos com facilidade. Experimente!</p>
-                <a href=""> Ver Projeto</a>
+                <a> Ver Projeto</a>
             </div>
 
             <div class="card">
@@ -79,24 +81,48 @@
         <div class="card-projetos">
 
             <div class="card">
-                <img src="./assets/Sem nome (40 × 49 px) (100 × 100 px).png" alt="" class="carregando">
+                <img src="./assets/emprocesso.png" alt="" class="carregando">
             </div>
 
             <div class="card">
-                <img src="./assets/Sem nome (40 × 49 px) (100 × 100 px).png" alt="" class="carregando" >
+                <img src=".//assets/emprocesso.png" alt="" class="carregando">
             </div>
 
-            <div class="card"> 
-                <img src="./assets/Sem nome (40 × 49 px) (100 × 100 px).png" alt="" class="carregando" >
+            <div class="card">
+                <img src="./assets/emprocesso.png" alt="" class="carregando">
             </div>
         </div>
 
-
-
-
-
-
     </div>
+
+    <footer>
+        <h2 id="footer-contacts"> Contatos</h2>
+
+        <div class="social">
+            <div class="redes-sociais">
+                <img src="./assets/linkedin.png" alt="">
+                <a>
+                    <h3> Linkedin</h3>
+                </a>
+            </div>
+            <div class="redes-sociais">
+                <img src="./assets/gmail.png" alt="">
+                <a>
+                    <h3> Email</h3>
+                </a>
+            </div>
+            <a href="https://github.com/victormarks10" target="_blank"></a>
+            <div class="redes-sociais">
+                <img src="./assets/github.png" alt="">
+                <h3>github</h3>
+            </div>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./script.js">
+
+    </script>
 
 </body>
 

@@ -12,9 +12,10 @@
     background-size: 500px;
     background-position: 90% center;
     background-repeat: no-repeat;
-     background-color: #00008B;
-
+    background-color: #00008B;
 }
+
+
 
 nav {
     display: flex;
@@ -30,7 +31,7 @@ nav {
 
 .portfolio {
     color: white;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 li {
@@ -38,16 +39,23 @@ li {
     list-style: none;
     display: inline-block;
     font-size: 25px;
-    font-weight: 0;
+    font-weight: 300;
     margin-right: 50px;
     cursor: pointer;
 
 }
 
-li:hover {
-    color: #3c6232;
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #808080;
     transition: 0.5s;
 }
+
+
 
 .name {
     position: absolute;
@@ -62,14 +70,14 @@ li:hover {
     font-size: 39px;
     font-weight: 500;
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .meu-name span {
     color: #3c6232;
 }
 
-.developer {
+.interface-creator {
     font-size: 39px;
     font-weight: 400;
     color: #ffffff;
@@ -88,7 +96,7 @@ section {
 
 
 section div h2 {
-    color:#000000;
+    color: #000000;
     font-size: 55px;
     font-weight: 100;
     display: flex;
@@ -109,22 +117,24 @@ section div p {
 .btn-contact {
     color: white;
     padding: 25px;
-    font-size:20px;
+    width: 30%;
+    font-size: 20px;
     background-color: #000000;
     border: none;
     border-radius: 13px;
+    cursor: pointer;
 }
 
-.sobre-mim{
+.sobre-mim {
     margin-left: 80px;
 }
 
 
-.projetos{
+.projetos {
     background-color: #00008B;
 }
 
-.projetos h2{
+.projetos h2 {
     color: #ffffff;
     font-size: 55px;
     text-align: center;
@@ -143,15 +153,18 @@ section div p {
     padding: 20px 35px;
     border-radius: 20px;
     text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
 
-.carregando{
+
+.carregando {
     width: 180px;
     margin-top: 40px;
 }
 
 .card h5 {
-    color:#000000;
+    color: #000000;
     font-size: 28px;
 }
 
@@ -172,8 +185,51 @@ section div p {
 
 
 
-.card-projetos{
+.card-projetos {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+}
+
+
+
+footer {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociais {
+    background: #ffff;
+    width: 180px;
+    height: 105px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+
+}
+
+.redes-sociais a {
+    text-decoration: none;
 }
