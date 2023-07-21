@@ -7,24 +7,36 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,500;1,600&display=swap"
+        rel="stylesheet">
     <title> Portfólio - Aaron Victor </title>
 </head>
 
 <body>
     <div class="container">
-        <nav>
+        <nav class="links">
             <h2 class="portfolio" id="inicio"> Portfólio</h2>
-            <ul>
+            <ul class="nav-menu">
                 <li> <a href="#inicio" class="nav-link"> Inicio</a> </li>
                 <li> <a href="#sobre-mim" class="nav-link"> Sobre</a></li>
                 <li> <a href="#projetos" class="nav-link"> Projetos</a></li>
                 <li> <a href="#footer-contacts" class="nav-link"> Contatos</a></li>
             </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+
         </nav>
+
         <div class="name">
             <h1 class="meu-name"> Olá, sou Aaron Victor, um Desenvolvedor Front-End </h1>
-            <h3 class="interface-creator"> apaixonado por criar interfaces intuitivas e atraentes. </h3>
+            <h3 class="meu-name"> apaixonado por criar interfaces intuitivas e atraentes. </h3>
         </div> <!--primeira tela -->
     </div>
 
@@ -32,13 +44,13 @@
         <img src="./assets/foto-perfil.png" class="foto-de-perfil">
         <div class="sobre-mim">
             <h2 id="sobre-mim"> sobre mim </h2>
-            <p>
+            <p class="text-sobre">
                 Sou um Progamador front-end com experiência em HTML, CSS e JavaScript, e estou atualmente
                 expandindo meus conhecimentos para incluir o framework React. Tenho habilidades sólidas na
                 criação de interfaces web responsivas e interativas, e estou animado em aplicar minha expertise
                 no desenvolvimento de aplicativos web dinâmicos com o React.
                 Busco oportunidades desafiadoras para contribuir em projetos inovadores e colaborativos.</p>
-            <a href="./assets/Currículo minimalista preto e cinza (4) (1).pdf" target="_blank"> <button
+            <a href="./assets/Currículo minimalista preto e cinza (4) (1).pdf" target="_blank" class="meu-cv"> <button
                     class="btn-contact"> Meu CV</button></a>
 
         </div>
@@ -54,7 +66,7 @@
                 <img src="./assets/frutaria.png" alt="" class="frutaria">
                 <h5> Frutaria</h5>
                 <p> Frutaria: adicione frutas ao carrinho, remova e some seus produtos com facilidade. Experimente!</p>
-                <a> Ver Projeto</a>
+                <a href="https://frutaria.netlify.app" target="_blank"> Ver Projeto</a>
             </div>
 
             <div class="card">
@@ -63,7 +75,7 @@
                 <p>
                     Conversor: Converta facilmente entre real, dólar, euro ou bitcoin. Experimente
                 </p>
-                <a href=""> Ver Projeto</a>
+                <a href="https://convert-moneyy.netlify.app" target="_blank"> Ver Projeto</a>
             </div>
 
             <div class="card">
@@ -72,52 +84,70 @@
                 <p>
                     Previsão do tempo: Digite o nome da sua cidade ou estado e descubra como está o clima atualmente.
                 </p>
-                <a href=""> Ver Projeto</a>
+                <a href="https://previsaodotempoglobal.netlify.app" target="_blank"> Ver Projeto</a>
             </div>
 
-            <!-- teste-->
         </div>
 
         <div class="card-projetos">
 
             <div class="card">
-                <img src="./assets/emprocesso.png" alt="" class="carregando">
+                <img src="./assets/moto.png" alt="" class="">
+                <h5> DevMotors</h5>
+                <p>
+                    DevMotors: Consiste em uma loja de motos que é possivel escolher sua moto do seu gosto entre cores e
+                    modelos
+
+                </p>
+                <a href="https://motors-dev.netlify.app" target="_blank"> Ver Projeto</a>
             </div>
 
             <div class="card">
-                <img src=".//assets/emprocesso.png" alt="" class="carregando">
+                <img src="./assets/iphone.png" alt="" class="">
+                <h5>Apple</h5>
+                <p>
+                    Apple : Uma loja com a marca de ceular mais vendida do planeta , escolha o celular do seu gosto.
+                </p>
+                <a href="https://iphone-loja.netlify.app" target="_blank"> Ver Projeto</a>
             </div>
 
             <div class="card">
-                <img src="./assets/emprocesso.png" alt="" class="carregando">
+                <img src="./assets/Sem nome (100 × 100 px) (50 × 50 px) (100 × 100 px) (70 × 100 px) (100 × 100 px) (1).png"
+                    alt="" style="    margin-top: 60px;
+                width: 150px;">
             </div>
         </div>
 
     </div>
 
     <footer>
+
         <h2 id="footer-contacts"> Contatos</h2>
 
         <div class="social">
-            <div class="redes-sociais">
-                <img src="./assets/linkedin.png" alt="">
-                <a>
+
+            <a href="https://www.linkedin.com/in/aaron--victor/" target="_blank">
+                <div class="redes-sociais">
+                    <img src="./assets/linkedin.png" alt="">
                     <h3> Linkedin</h3>
-                </a>
-            </div>
-            <div class="redes-sociais">
-                <img src="./assets/gmail.png" alt="">
-                <a>
+                </div>
+            </a>
+
+            <a href="mailto:aaron.victormarks10@gmail.com" target="_blank">
+                <div class="redes-sociais">
+                    <img src="./assets/gmail.png" alt="">
                     <h3> Email</h3>
-                </a>
-            </div>
-            <a href="https://github.com/victormarks10" target="_blank"></a>
-            <div class="redes-sociais">
-                <img src="./assets/github.png" alt="">
-                <h3>github</h3>
-            </div>
+                </div>
+            </a>
+
+            <a href="https://github.com/victormarks10" target="_blank">
+                <div class="redes-sociais">
+                    <img src="./assets/github.png" alt="">
+                    <h3> Github</h3>
+                </div>
             </a>
         </div>
+
     </footer>
 
     <script src="./script.js">
