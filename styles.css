@@ -172,6 +172,10 @@ section div p {
 
 
 .projetos {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
     background-color: #00008B;
 }
 
@@ -288,120 +292,69 @@ footer h2 {
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:768px) and (max-width:1019px) {
-
-    /* Tablet */
-
+@media screen and (max-width:767px) {
     .container {
-        margin: 0;
-        padding: 0;
         height: 90%;
-        background-size: 400px;
+        background-size: 250px;
         background-position: 50% center;
-        margin-top: 40px;
     }
 
     nav {
-        margin: 0;
-        padding: 0;
-        justify-content: space-around;
-        padding: 15px 15px;
+        padding-bottom: 0;
+    }
+
+    li {
+        display: block;
     }
 
     .name {
-        top: 13%;
-        left: 130px;
+        position: relative;
+        margin-top: 97px;
     }
 
     .meu-name {
         margin: 0;
+        font-size: 20px;
+    }
+
+    .name-principal {
         font-size: 30px;
     }
 
-    section {
-        display: flex;
-        flex-direction: column-reverse;
+    section{
+        width: 100%;
+        height: 115%;
+        justify-content: center;
+        flex-direction: column;
     }
 
-    .foto-de-perfil {
-        height: 400px;
+    .foto-de-perfil{
+        height: 295px;
     }
 
-    .sobre-mim {
+    .sobre-mim{
         margin: 0;
     }
 
     section div h2 {
         display: block;
-        font-size: 35px;
-        align-items: center;
     }
+
 
     section div p {
-        display: block;
-        text-align: center
+        width: 400px;
+        margin: 0;
+        margin-left: 21px;
+        font-size: 24px;
     }
 
-    .meu-cv {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .btn-contact{
+        margin-top: 20px;
+        margin-left: 130px;
     }
-
-    .projetos h2 {
-        font-size: 30px;
-    }
-
-    .card-projetos {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-}
-
-@media screen and (min-width:390px) and (max-width:767px) {
-    nav .menu {
-        display: block;
-    }
-
-    .menu,.active , .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-
-    }
-
-    .menu,.active,.bar:nth-child(2){
-
-
-    }
-
-    .menu,.active , .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-
-    .nav-menu{
-        position: fixed;
-        right: -100%;
-        top: 70px;
+    .projetos{
         width: 100%;
-        height: 100%;
         flex-direction: column;
-        background-color: #ffffff;
-        gap:-10px;
-        transition: .3s;
     }
 
-    .nav-link{
-        margin: 16px 0;
-    }
 }
