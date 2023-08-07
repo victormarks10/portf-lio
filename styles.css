@@ -172,8 +172,6 @@ section div p {
 
 
 .projetos {
-
-    display: flex;
     width: 100%;
     justify-content: space-around;
     background-color: #00008B;
@@ -357,4 +355,28 @@ footer h2 {
         flex-direction: column;
     }
 
+    .projetos h2{
+        position: static;
+    }
+
+    .card-projetos{
+        margin: 0;
+        display: inline-block;
+    }
+
+    .card{
+        margin: 0 auto;
+        margin: 20px 0 100px 14%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social{
+        flex-direction: column;
+    }
+    .redes-sociais{
+        margin-bottom: 20px;
+    }
 }
