@@ -290,113 +290,147 @@ footer h2 {
     text-decoration: none;
 }
 
-@media screen and (max-width:767px) {
+
+@media screen and (min-width: 260px) and (max-width:380px) {
+
     .container {
-        height: 90%;
-        background-size: 250px;
-        background-position: 50% center;
+        background-size: 220px;
+        background-position: 70% center;
     }
 
     nav {
-        padding-bottom: 0;
+        margin: 0;
+        padding-left: 40px;
     }
 
-    li {
-        display: block;
+    .portfolio {
+        margin-right: 23px;
     }
 
     .name {
         position: relative;
-        margin-top: 97px;
     }
-
-    .meu-name {
-        margin: 0;
-        font-size: 20px;
-    }
-
-    .name-principal {
-        font-size: 30px;
-    }
-
-    section {
-        width: 100%;
-        height: 115%;
-        justify-content: center;
-        flex-direction: column;
+    .meu-name{
+        margin-top: 40px;
+        font-size: 22px;
     }
 
     .foto-de-perfil {
-        height: 295px;
+        height: 270px;
     }
 
-    .sobre-mim {
-        margin: 0;
+    section {
+        flex-direction: column;
     }
 
     section div h2 {
-        display: block;
+        font-size: 45px;
     }
-
-
+    
     section div p {
-        width: 400px;
         margin: 0;
-        margin-left: 21px;
-        font-size: 24px;
+        margin-right: 70px;
+        font-size: 26px;
+        width: 280px;    
     }
 
-    .btn-contact {
-        margin-top: 20px;
-        margin-left: 130px;
-    }
-
-    .projetos {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .projetos h2 {
-        position: static;
-    }
-
-    .card-projetos {
-        margin: 0;
-        display: inline-block;
-    }
-
-    .card {
-        margin: 0 auto;
-        margin: 20px 0 100px 14%;
+    .btn-contact{
+        width: 50%;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 40px 0 20px 40px;
     }
 
-    .social {
+    .card-projetos{
+        margin: 0;
+        margin: 20px 0  0;
+        flex-direction: column;
+    }
+    .card{
+        width: 250px;
+        margin: 0 auto;
+        margin: 45px auto 30px;
+    }
+
+    footer h2 {
+        margin: 0;
+    }
+
+    .social{
         flex-direction: column;
     }
 
-    .redes-sociais {
+    .redes-sociais{
         margin-bottom: 20px;
     }
+
 }
 
-@media screen and (min-width:768px){
+
+@media screen and (min-width: 380px) and (max-width:450px) {
+
     .container{
-        background-size: 450px;
-        background-position: 95% center;
-    }
-    .meu-name{
-        font-size: 38px;
+        background-size: 250px;
+        background-position: 50% center;
     }
 
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+    }
     .name{
-        left: 3%;
+        position: relative;
+        margin-top: 90px;
+    }
+
+    .meu-name{
+        font-size: 35px;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .foto-de-perfil{
+        height: 400px;
     }
 
     section div p {
-        width: 640px;
+        margin: 0;
+        margin-right: 90px;
+        font-size: 26px;
+        width: 280px;    
     }
+
+    .btn-contact{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0 20px 40px;
+    }
+
+    .card-projetos{
+        margin: 0;
+        margin: 20px 0  0;
+        flex-direction: column;
+    }
+    .card{
+        width: 250px;
+        margin: 0 auto;
+        margin: 45px auto 30px;
+    }
+    footer h2 {
+        margin: 0;
+    }
+
+    .social{
+        flex-direction: column;
+    }
+
+    .redes-sociais{
+        margin-bottom: 20px;
+    }
+
 }
